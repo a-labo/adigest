@@ -1,0 +1,39 @@
+{
+  "name": "adigest",
+  "version": "1.0.0",
+  "description": "Generate digest",
+  "main": "lib",
+  "scripts": {
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js"
+  },
+  "repository": "a-labo/adigest",
+  "keywords": [],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinishi@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-labo/adigest/issues"
+  },
+  "homepage": "https://github.com/a-labo/adigest#readme",
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "amocha": "^2.0.0",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^5.0.20",
+    "ape-updating": "^4.1.0",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=4"
+  }
+}
