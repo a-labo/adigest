@@ -1,6 +1,6 @@
 {
   "name": "adigest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate digest",
   "main": "lib",
   "scripts": {
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/a-labo/adigest#readme",
   "dependencies": {
-    "co": "^4.6.0"
+    "co": "^4.6.0",
+    "json-pointer": "^0.6.0"
   },
   "devDependencies": {
     "amocha": "^2.0.0",
