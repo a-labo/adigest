@@ -24,6 +24,11 @@ describe('digest-json', function () {
       digestJson({ foo: 'f', bar: 'b' }),
       digestJson({ bar: 'b', foo: 'f' })
     )
+
+    assert.notEqual(
+      digestJson({ foo: 'f', bar: 'b' }),
+      digestJson({ foo: 'f', bar: 'baz' })
+    )
   }))
 })
 
