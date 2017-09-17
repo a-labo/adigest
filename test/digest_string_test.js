@@ -11,17 +11,17 @@ const co = require('co')
 describe('digest-string', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Digest string', () => co(function * () {
+  it('Digest string', async () => {
     assert.equal(digestString('hoge'), digestString('hoge'))
-  }))
+  })
 })
 
 /* global describe, before, after, it */

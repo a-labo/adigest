@@ -11,18 +11,18 @@ const co = require('co')
 describe('digest', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Digest', () => co(function * () {
+  it('Digest', async () => {
     assert.equal(digest('foo'), digest('foo'))
     assert.equal(digest({ foo: 'bar' }), digest({ foo: 'bar' }))
-  }))
+  })
 })
 
 /* global describe, before, after, it */
