@@ -1,6 +1,6 @@
 {
   "name": "adigest",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "Generate digest",
   "main": "lib",
   "scripts": {
@@ -23,8 +23,8 @@
     "json-pointer": "^0.6.0"
   },
   "devDependencies": {
-    "amocha": "^5.0.2",
-    "ape-formatting": "^1.0.2",
+    "amocha": "^7.1.1",
+    "ape-formatting": "^2.0.2",
     "ape-releasing": "^5.0.7",
     "ape-tasking": "^4.0.12",
     "ape-tmpl": "^6.0.14",

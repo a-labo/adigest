@@ -6,7 +6,6 @@
 
 const digestJson = require('../lib/digest_json.js')
 const assert = require('assert')
-const co = require('co')
 
 describe('digest-json', function () {
   this.timeout(3000)

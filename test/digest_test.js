@@ -6,7 +6,6 @@
 
 const digest = require('../lib/digest.js')
 const assert = require('assert')
-const co = require('co')
 
 describe('digest', function () {
   this.timeout(3000)
